@@ -14,6 +14,8 @@
 		110FA3852138B58700565366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110FA3832138B58700565366 /* LaunchScreen.storyboard */; };
 		110FA3902138B58800565366 /* ARTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FA38F2138B58800565366 /* ARTryTests.swift */; };
 		110FA39B2138B58800565366 /* ARTryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FA39A2138B58800565366 /* ARTryUITests.swift */; };
+		110FA3A92139D10F00565366 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 110FA3A82139D10F00565366 /* Models.scnassets */; };
+		115FC70921479F2C00A5935C /* navigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115FC70821479F2C00A5935C /* navigationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		110FA3962138B58800565366 /* ARTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110FA39A2138B58800565366 /* ARTryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTryUITests.swift; sourceTree = "<group>"; };
 		110FA39C2138B58800565366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110FA3A82139D10F00565366 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		115FC70821479F2C00A5935C /* navigationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				110FA37A2138B58600565366 /* AppDelegate.swift */,
 				110FA37C2138B58600565366 /* ViewController.swift */,
 				110FA37E2138B58600565366 /* Main.storyboard */,
+				110FA3A82139D10F00565366 /* Models.scnassets */,
 				110FA3812138B58700565366 /* Assets.xcassets */,
 				110FA3832138B58700565366 /* LaunchScreen.storyboard */,
 				110FA3862138B58700565366 /* Info.plist */,
+				115FC70821479F2C00A5935C /* navigationService.swift */,
 			);
 			path = ARTry;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				110FA3852138B58700565366 /* LaunchScreen.storyboard in Resources */,
+				110FA3A92139D10F00565366 /* Models.scnassets in Resources */,
 				110FA3822138B58700565366 /* Assets.xcassets in Resources */,
 				110FA3802138B58600565366 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115FC70921479F2C00A5935C /* navigationService.swift in Sources */,
 				110FA37D2138B58600565366 /* ViewController.swift in Sources */,
 				110FA37B2138B58600565366 /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXL8J472C8;
 				INFOPLIST_FILE = ARTry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXL8J472C8;
 				INFOPLIST_FILE = ARTry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
